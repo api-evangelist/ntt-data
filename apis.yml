@@ -1,0 +1,42 @@
+aid: ntt-data
+name: NTT DATA
+description: >-
+  NTT DATA is a global IT services and consulting firm offering strategic
+  consulting, cloud services, cybersecurity, data analytics, application
+  development, and managed infrastructure across industries including banking,
+  healthcare, manufacturing, public sector, and retail. The company operates
+  in more than 50 countries and serves Fortune 500 enterprises with digital
+  transformation, AI, and systems integration capabilities. NTT DATA does
+  not publish a general public REST API; integrations are typically delivered
+  through bespoke engagements and partner-specific solutions.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - IT Services
+  - Consulting
+  - Digital Transformation
+  - Cloud Services
+  - Cybersecurity
+  - Systems Integration
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/ntt-data/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.nttdata.com/global/en/
+  - type: Services
+    url: https://www.nttdata.com/global/en/services
+  - type: Industries
+    url: https://www.nttdata.com/global/en/industries
+  - type: Contact
+    url: https://www.nttdata.com/global/en/contact
+  - type: Newsroom
+    url: https://www.nttdata.com/global/en/news
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ntt-data
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
