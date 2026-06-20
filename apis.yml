@@ -10,7 +10,7 @@ description: >-
   not publish a general public REST API; integrations are typically delivered
   through bespoke engagements and partner-specific solutions.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - IT Services
   - Consulting
