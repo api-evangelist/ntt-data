@@ -25,6 +25,8 @@ modified: '2026-05-11'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/ntt-data-domain-security.yml
   - type: Website
     url: https://www.nttdata.com/global/en/
   - type: Services
