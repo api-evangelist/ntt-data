@@ -1,0 +1,31 @@
+# Front Door AI Index — ntt-data — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ntt-data
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.nttdata.com
+  final_host: www.nttdata.com
+  ownership: own
+  owner: ntt-data
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 62
+  host_score: 62
+  density: 57.2
+  words: 1084
+  tiers:
+    agentic: 12
+    core: 50
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 34
+    gen ai: 14
+    agentic: 6
+    AI assistant: 4
+    automation: 2
+    copilot: 2
+    generative ai: 2
