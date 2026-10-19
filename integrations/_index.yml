@@ -187,3 +187,294 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: ntt-data-aws-partner-network-services
+  label: AWS Partner Network (services)
+  partner: amazon-web-services
+  partner_name: AWS Partner Network (services)
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://partners.amazonaws.com/partners/001E000000Rl0wGIAR
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: AWS Partner Solutions Finder (api.finder.partners.aws.a2z.com/search)
+    spec_file: null
+    standard: AWS Partner Network (services path)
+    role: aws-services-partner
+    registered_name: NTT DATA Inc.
+    register_id: 001E000000Rl0wGIAR
+    partner_tier: Premier
+    matched_domain: nttdata.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    partner_paths:
+    - path_name: Services Path
+      path_tier: Premier
+      path_stage: Differentiated
+    - path_name: Training Path
+      path_tier: Select
+      path_stage: Validated
+    - path_name: Software Path
+      path_tier: null
+      path_stage: Differentiated
+    context:
+      service_deliveries: 13
+      professional_service_types:
+      - Assessment / Jumpstart Pkg
+      - Cloud Migration Services
+      - Managed Service Provider
+      - Strategic / IT Consulting
+      - Systems Integration
+      - Training
+      programs:
+      - Authorized Training Partner
+      - AWS Managed Service Provider
+      - Authorized Commercial Reseller
+      - AWS Solution Provider Program
+      - AWS Public Sector Solution Provider
+      - AWS Marketplace Skilled Consulting Partner
+      - Backed by AWS Support
+      hq_country: United Kingdom
+    certified_products:
+    - product: Amazon Connect Customer
+      type: AWS Competency
+      lapsed: false
+    - product: Data Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: DevOps Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Financial Services Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Mainframe Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Mainframe Modernization ISV Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Migration and Modernization Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Networking Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: SAP Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Security Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Storage Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: AWS Managed Service Provider (MSP)
+      type: AWS program validation
+      lapsed: false
+    - product: AI Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Digital Sovereignty Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Government Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: MSSP Services Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Machine Learning Consulting Competency
+      type: AWS Competency
+      lapsed: false
+    - product: Telecom Services Competency
+      type: AWS Competency
+      lapsed: false
+    other_listings:
+    - NTT DATA EMEAL (001E000000bf7ZkIAI)
+    - NTT DATA JAPAN CORPORATION (001E000000T6qNVIAZ)
+    - NTT DATA Business Solutions AG (001E000000UfalvIAB)
+    - NTT DATA (Thailand) Co Ltd (0010h00001d1lbZAAQ)
+    - NTT DATA China (0010h00001hfbqZAAQ)
+  status: not-a-workflow
+  arazzo: null
+- slug: ntt-data-databricks-consulting-si-partner-program
+  label: Databricks Consulting & SI Partner Program
+  partner: databricks
+  partner_name: Databricks Consulting & SI Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://www.databricks.com/company/partners/consulting-and-si
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Databricks partner directory (en-partners-assets/data/partner/all/en.json)
+    spec_file: null
+    standard: Databricks C&SI partner
+    role: databricks-csi-partner
+    registered_name: NTT DATA
+    register_id: '5509'
+    partner_tier: null
+    matched_domain: nttdata.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    context:
+      regions:
+      - Asia-Pacific
+      - Europe
+      - Latin America
+      - Middle East and Africa
+      - North America
+  status: not-a-workflow
+  arazzo: null
+- slug: ntt-data-salesforce-consulting-partner-program
+  label: Salesforce Consulting Partner Program
+  partner: salesforce
+  partner_name: Salesforce Consulting Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000001gWoeEAE
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Salesforce AppExchange consultants (recommendations/v3 listings type=consultants)
+    spec_file: null
+    standard: Salesforce consulting partner (AppExchange)
+    role: salesforce-consulting-partner
+    registered_name: NTT
+    register_id: a0N30000001gWoeEAE
+    partner_tier: Summit
+    matched_domain: nttdata.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    certified_products:
+    - product: Communications (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Consumer Goods (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Education (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Energy and Utilities (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Engineering, Construction and Real Estate (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Financial Services (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Healthcare and Life Sciences (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: High Tech (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Manufacturing (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Media (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Professional Services (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Public Sector and Government (Cloud Accredited)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Retail (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Travel, Transportation and Hospitality (Cloud Expert)
+      type: Salesforce industry expertise
+      lapsed: false
+    - product: Agentforce Commerce (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Marketing (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Sales (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Agentforce Service (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Analytics (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Data 360 (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Platform (Cloud Expert)
+      type: Salesforce product expertise
+      lapsed: false
+    - product: Small Business (Cloud Accredited)
+      type: Salesforce product expertise
+      lapsed: false
+  status: not-a-workflow
+  arazzo: null
+- slug: ntt-data-snowflake-services-partner-program
+  label: Snowflake Services Partner Program
+  partner: snowflake
+  partner_name: Snowflake Services Partner Program
+  category: Services partner
+  type: register
+  channel: standard-directory
+  evidence: https://www.snowflake.com/en/why-snowflake/partners/all-partners/ntt-data-japan-corporation/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Snowflake partner directory (filterable_resources.filter.json + partner model.json)
+    spec_file: null
+    standard: Snowflake services partner
+    role: snowflake-services-partner
+    registered_name: NTT DATA JAPAN CORPORATION
+    register_id: ntt-data-japan-corporation
+    partner_tier: Elite
+    matched_domain: nttdata.com
+    matched_by: domain
+    identity_source: the register's own website / profile URL for the firm (no lookup)
+    signal_note: listing = participation; certified_products = one entry per designation the program awards the
+      FIRM (lapsed flagged); partner_tier and context are never counted (breadth is not credit)
+    detected_by: sweep-professional-services.py
+    detected: '2026-10-19'
+    context:
+      badge: Snowflake AI Data Cloud Elite Services Partner badge
+    certified_products:
+    - product: Analytics
+      type: Snowflake workload specialization
+      lapsed: false
+    - product: Financial Services
+      type: Snowflake competency
+      lapsed: false
+    - product: Healthcare & Life Sciences
+      type: Snowflake competency
+      lapsed: false
+    - product: Manufacturing & Industrial
+      type: Snowflake competency
+      lapsed: false
+    other_listings:
+    - NTT DATA Italia S.p.A. (ntt)
+    - NTT DATA JAPAN CORPORATION (ntt-data-japan-corporation)
+    - NTT DATA Philippines, Inc. (ntt-data-philippines-inc)
+    - NTT Data UK (ntt-data-uk)
+  status: not-a-workflow
+  arazzo: null
