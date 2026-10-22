@@ -593,6 +593,43 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-common-criteria-certified-products.py
   first_seen: '2026-10-21'
+- partner_name: ISMAP
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.ismap.go.jp/csm?id=cloud_service_list
+  category: Japan government cloud security assessment (ISMAP)
+  contract_reference:
+    register: ISMAP / ISMAP-LIU cloud service lists (www.ismap.go.jp)
+    standard: ISMAP
+    spec_file: null
+    role: ismap-registered
+    registrations:
+    - register_number: C21-0001-2
+      registration_type: ISMAP
+      service: OpenCanvas(IaaS)
+      registered_name: 株式会社ＮＴＴデータ
+      service_url: https://www.nttdata.com/jp/ja/lineup/opencanvas-iaas/
+      matched_domain: nttdata.com
+      matched_by: domain+local-verified
+      evidence_url: https://www.ismap.go.jp/csm?id=cloud_service_list
+      scope_of_statement: https://www.ismap.go.jp/sys_attachment.do?sys_id=a0ba1e252bedc3d0f0bbfd69fe91bff6
+      hand_verified: 株式会社ＮＴＴデータ is NTT DATA (nttdata.com, held by all/ntt-data)
+    signal_note: certified_products = one entry per ISMAP registration TYPE (ISMAP, ISMAP-LIU), never per service;
+      services are context, never counted. The lists carry current registrations only (a filed renewal keeps a registration
+      valid), so lapsed is always false
+    certified_products:
+    - product: ISMAP
+      standard: ISMAP
+      registration_type: ISMAP
+      lapsed: false
+    detected_by: sweep-japan-ismap-tisax-assessments.py
+    detected: '2026-10-22'
+  detected_by: sweep-japan-ismap-tisax-assessments.py
+  first_seen: '2026-10-22'
 generated: '2026-10-12'
 method: searched
 checked:
@@ -619,6 +656,8 @@ checked:
 - https://www.commoncriteriaportal.org/products/certified_products-archived.csv
 - https://www.commoncriteriaportal.org/products/certified_products.csv
 - https://www.niap-ccevs.org/Product/PCL.cfm
+- https://www.ismap.go.jp/csm?id=cloud_service_list
+- https://www.ismap.go.jp/csm?id=cloud_service_list_liu
 marketplace_apps: []
 source:
 - https://github.com/cncf/landscape
